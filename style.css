@@ -49,6 +49,8 @@ body {
   position: absolute;
   top: 12px;
   right: 55px;
+  font-size: large;
+  color: var(--fontColor);
 
 }
 .btn {
@@ -186,6 +188,9 @@ h3{
 p{
   color: #000000;
 }
+.colo{
+  color: var(--fontColor);
+}
 .down{
   margin-top: 180px;
   cursor: pointer;
@@ -236,6 +241,7 @@ p{
 }
 #experience {
   position: relative;
+  flex: 1;
 }
 
 .experience-sub-title {
